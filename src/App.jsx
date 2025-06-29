@@ -34,7 +34,7 @@ function App() {
     });
 
     try {
-      const response = await fetch('https://api.mayar.id/v1/payment_links', {
+      const response = await fetch('/api/payment-link', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
