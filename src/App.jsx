@@ -35,24 +35,24 @@ function App() {
 
     try {
       const response = await fetch('/api/payment-link', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${MAYAR_API_KEY}`
-        },
-        body: JSON.stringify({
-          name: product.name,
-          amount: product.priceAmount,
-          currency: 'IDR',
-          description: product.description,
-          customer: {
-            name: 'Pelanggan HADESOLUTION',
-            email: 'pelanggan@hadesolution.com',
-            phone: '081234567890'
-          },
-          redirect_url: window.location.href,
-        })
-      });
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    name: product.name,
+    amount: product.priceAmount,
+    currency: 'IDR',
+    description: product.description,
+    customer: {
+      name: 'Pelanggan HADESOLUTION',
+      email: 'pelanggan@hadesolution.com',
+      phone: '081234567890',
+    },
+    redirect_url: window.location.href,
+  }),
+});
+
 
       const data = await response.json();
 
