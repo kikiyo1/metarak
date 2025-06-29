@@ -26,7 +26,7 @@ function App() {
   const { toast } = useToast();
 
   const handlePayment = async (product) => {
-    const MAYAR_API_KEY = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIwZTg5YTQ1My03YzQ0LTQzZTYtYmY1ZS1hOGU1MzY4N2M1NzQiLCJhY2NvdW50SWQiOiI2ZDQzZDhiMC1kNGVkLTRkMmItOGQwMS1kMmIyZWI4YzJjOWIiLCJjcmVhdGVkQXQiOiIxNzUxMTIzNDEzOTIxIiwicm9sZSI6ImRldmVsb3BlciIsInN1YiI6InNpc3dvcm9tZXRhMTY4QGdtYWlsLmNvbSIsIm5hbWUiOiJyYWsgbWluaW1hcmtldCIsImxpbmsiOiJzaXN3b3JvLTc0Mzk3IiwiaXNTZWxmRG9tYWluIjpudWxsLCJpYXQiOjE3NTExMjM0MTN9.mvlsRbSOKlhdwmhEErEQOmie2qlJZA_yWwSUivmLoNwpax_HofFFcl7vkXQ1eyqt3hzX_EgJujd_-YAyzTmveKaiRAPMH_ji-9r-Wh3C-5X859w-XGaFqJUMmZYWC5-2NMiP_GZS8XfYikv6EZUr1NWni31Ry2JOa0kWQciw_whs0VY1dD_6KDZJ5wTAjzYmieGop2mMoMW0sFOpmxulR_EU4vBbIXzVCUhfXolKhYQizokqiJYL2Tvzd0Uti_fx2TVoGDuU69ic4wwWVCEBUWCCC3Jsp7NVQRqd3fXANzEQZxsFNiQhG-51aENo9I0nj8gntoEzHN69wltosGERag";
+    const MAYAR_API_KEY = "API_KEY";
 
     toast({
       title: "🚀 Memproses pembayaran...",
