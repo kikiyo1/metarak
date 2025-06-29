@@ -9,6 +9,18 @@ import ProductsSection from '@/components/landing/ProductsSection';
 import TestimonialsSection from '@/components/landing/TestimonialsSection';
 import CtaSection from '@/components/landing/CtaSection';
 import PageFooter from '@/components/landing/PageFooter';
+import PaymentButton from './components/PaymentButton';
+
+function App() {
+  return (
+    <div>
+      <h1>Selamat Datang</h1>
+      <PaymentButton />
+    </div>
+  );
+}
+
+export default App;
 
 function App() {
   const { toast } = useToast();
